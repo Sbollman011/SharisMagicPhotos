@@ -9,7 +9,7 @@ import com.twilio.type.PhoneNumber;
 public class SMS {
   // Find your Account Sid and Token at twilio.com/user/account
   public static final String ACCOUNT_SID = "AC91931690d7610dc174fa8db8f998d862";
-  public static final String AUTH_TOKEN = "9616d680052faae37b39c3e782c434c8";
+  public static final String AUTH_TOKEN = "78deb6502883044f23d7da696de1b4bd";
 
   public static void sendSMS(String msg) {
     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
